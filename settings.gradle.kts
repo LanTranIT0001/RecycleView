@@ -22,5 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "RecycleView"
+rootProject.name = "recyclerview"
 include(":app")
+ 

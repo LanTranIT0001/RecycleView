@@ -3,14 +3,14 @@ plugins {
 }
 
 android {
-    namespace = "com.example.recycleview"
+    namespace = "com.example.recyclerview"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.recycleview"
-        minSdk = 24
+        applicationId = "com.example.recyclerview"
+        minSdk = 30
         targetSdk = 37
         versionCode = 1
         versionName = "1.0"
@@ -35,7 +35,6 @@ dependencies {
     implementation(libs.activity.ktx)
     implementation(libs.appcompat)
     implementation(libs.constraintlayout)
-    implementation(libs.fragment)
     implementation(libs.material)
     implementation(libs.recyclerview)
     testImplementation(libs.junit)
